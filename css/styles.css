@@ -1,6 +1,7 @@
 /* import fonts from fonts.css */
 
 @import url(./fonts.css);
+
 * {
   margin: 0;
 }
