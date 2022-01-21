@@ -31,7 +31,8 @@ button {
   color: black;
 }
 
-.button.button.primary-button::after {
+.button.button.primary-button::after,
+.button.secondary-button::after {
   position: absolute;
   top: -2px;
   left: -2px;
@@ -41,4 +42,16 @@ button {
   content: "";
   z-index: -1;
   border-radius: 4px;
+}
+
+.button.secondary-button {
+  background: white;
+  background-clip: padding-box;
+  transition: background.6s ease;
+}
+
+.button.secondary-button:hover {
+  background: var(--gradient-color);
+  color: whitesmoke;
+  box-shadow: var(--box-shadow);
 }
