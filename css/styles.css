@@ -156,3 +156,17 @@
   margin-left: 340px;
   z-index: -1;
 }
+
+.site-main .brand-area .experience-area .years-area .years {
+  font: normal bold 84px/40px var(--roboto);
+  color: var(--primary-color);
+  z-index: 2;
+}
+
+.site-main .brand-area .experience-area .years-area h2 > span {
+  font: normal 600 24px/30px var(--roboto);
+}
+
+.site-main .brand-area .experience-area .call-area {
+  padding-left: 10rem;
+}
